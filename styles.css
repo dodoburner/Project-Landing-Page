@@ -45,6 +45,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     gap: 80px;
+    padding-bottom: 200px;
     
 }
 
@@ -58,7 +59,7 @@ a {
 .placeholder {
     background-color: beige;
     color: black;
-    padding: 50px 150px
+    padding: 100px 200px
 }
 
 button {
@@ -69,6 +70,44 @@ button {
     border: #3882F6;
 }
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: #1F2937;
+    align-items: center;
+
+}
+
+
+ .box {
+     border: 6px solid #3882F6;
+     border-radius: 10px;
+     height: 200px;
+     width: 200px;
+ }
+
+ .images {
+     display: flex;
+     flex-direction: row;
+     gap: 80px;
+     justify-content: center;
+     padding-bottom: 180px;
+     
+        
+ }
+
+ .imgtext {
+     max-width: 200px;
+     font-size: medium;
+     font-weight: normal;
+     margin-top: 40px;
+
+
+   
+     
+ }
 
 
 
