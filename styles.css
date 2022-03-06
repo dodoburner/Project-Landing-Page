@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+    
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -22,3 +28,37 @@ ul {
 }
 
 li {display: inline;}
+
+.section1 {
+    display: flex;
+    background-color:#1F2937;
+    align-items: center;
+    color:#E5E7EB;
+    padding:100px 150px ;
+   gap: 48px;
+
+}
+
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+}
+
+.placeholder {
+    background-color:azure;
+    padding: 120px;
+    
+}
+
+
+
