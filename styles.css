@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -8,7 +16,7 @@
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     
 }
 
@@ -28,3 +36,42 @@ a {
     color: #E5E7EB;
     text-decoration: none;
 }
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 150px;
+    background-color:#1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 80px;
+    
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.placeholder {
+    background-color: beige;
+    color: black;
+    padding: 50px 150px
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: #3882F6;
+}
+
+
+
+
+
+
+
