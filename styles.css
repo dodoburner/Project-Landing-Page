@@ -14,8 +14,7 @@ body {
     font-size: 18px;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 5px 150px
    
     
 }
@@ -29,6 +28,7 @@ ul {
 
 li {
     display: inline;
+    margin: 8px;
     
 }
  
@@ -45,7 +45,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     gap: 80px;
-    padding-bottom: 200px;
+    padding-bottom: 180px;
     
 }
 
@@ -59,15 +59,16 @@ a {
 .placeholder {
     background-color: beige;
     color: black;
-    padding: 100px 200px
+    padding: 120px 200px
 }
 
-button {
+.b1 {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 30px;
     border-radius: 10px;
     border: #3882F6;
+    font-weight: bold;
 }
 
 .section2 {
@@ -110,7 +111,7 @@ button {
      display: flex;
      flex-direction: column;
      align-items: flex-end;
-     padding: 100px 300px;
+     padding: 140px 300px;
      background-color: #E5E7EB;
      font-size: 36px ;
      color:#1F2937 ;
@@ -123,7 +124,61 @@ button {
      font-weight: bold;
      font-size: 30px
  }
- 
+
+ .section4 {
+     display: flex;
+     align-items: center;
+     padding: 100px 300px;
+ }
+
+ .bottombox {
+     background-color: #3882F6;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 50px 100px;
+     border-radius: 10px;
+     border-color: #3882F6;
+     width: 1000px;
+     gap:50px;
+     color: #F9FAF8;
+     
+     
+ }
+
+ .uptext {
+     font-weight: bold;
+     font-size: 24px;
+
+ }
+
+ .downtext {
+     font-weight: normal;
+     font-size: medium;
+ }
+
+ .b2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border-style:solid;
+    font-weight: bold;
+    
+ }
+
+ .footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #1F2937;
+     color: #F9FAF8;
+     padding: 50px;
+ }
+
+
+
 
 
 
